@@ -17,3 +17,9 @@ nbstripout --install
 </pre>
 
 4. Install "auto-pull" from the Extensions tab on the left.
+
+In the event that auto-pull does not appear to be working, try typing the following command in terminal. Make sure you commit or copy any unsaved work to be safe.
+
+<pre>
+git pull origin main --rebase
+</pre>
